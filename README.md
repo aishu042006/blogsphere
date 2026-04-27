@@ -1,27 +1,27 @@
-# 📝 Blogsphere
+# Blogsphere
 
 A personal blogging platform built with **React** and **Vite** — where you can write, manage, and share your thoughts with the world.
 
 ---
 
-## ✨ Features
+## Features
 
-- 🔐 **User Authentication** — Secure login and signup
-- 📝 **Create / Edit / Delete Posts** — Full control over your content
-- 💬 **Comments Section** — Engage with readers
-- 🔍 **Search & Filter Posts** — Quickly find any blog post
-- 🌙 **Dark Mode** — Easy on the eyes
+- **User Authentication** — Secure login and signup
+- **Create / Edit / Delete Posts** — Full control over your content
+- **Comments Section** — Engage with readers
+- **Search & Filter Posts** — Quickly find any blog post
+- **Dark Mode** — Easy on the eyes
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Frontend:** React, Vite
 - **Styling:** CSS / Tailwind (update as needed)
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 - Node.js (v18+)
@@ -47,7 +47,7 @@ Open your browser and visit `http://localhost:5173`
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 blogsphere/
@@ -65,6 +65,16 @@ blogsphere/
 
 ---
 
+## Contributing
+
+Contributions are welcome! Feel free to open an issue or submit a pull request.
+
 ---
 
-> Made with ❤️ by [Aishu](https://github.com/aishu042006)
+## License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+---
+
+> Made with love by [Aishu](https://github.com/aishu042006)
