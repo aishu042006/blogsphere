@@ -1,0 +1,46 @@
+.user-card {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  background: #00101f;
+  border: 1px solid #00d4ff44;
+  border-radius: 10px;
+  padding: 1.5rem 2rem;
+  box-shadow: 0 0 20px rgba(0,212,255,0.1);
+  margin-bottom: 2rem;
+}
+.user-card__avatar {
+  width: 64px; height: 64px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #0077b6, #00d4ff);
+  color: #000;
+  font-size: 1.75rem;
+  font-weight: 900;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  box-shadow: 0 0 16px #00d4ff66;
+}
+.user-card__name { font-size: 1.25rem; font-weight: 700; color: #caf0f8; }
+.user-card__email { font-size: 0.875rem; color: #2d6a7a; }
+.user-card__company { font-size: 0.875rem; color: #2d6a7a; margin-top: 0.25rem; }
+.user-card__website { font-size: 0.875rem; display: inline-block; margin-top: 0.5rem; color: #00d4ff; }
+.user-card {
+  transition: box-shadow 0.2s, transform 0.2s;
+}
+
+.user-card:hover {
+  box-shadow: 
+    0 0 30px rgba(0,212,255,0.2),
+    0 0 60px rgba(0,212,255,0.05);
+  transform: translateY(-2px);
+}
+
+.user-card__avatar {
+  transition: box-shadow 0.2s;
+}
+
+.user-card__avatar:hover {
+  box-shadow: 0 0 24px #00d4ffaa;
+}

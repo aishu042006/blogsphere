@@ -1,0 +1,24 @@
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2rem;
+  height: 64px;
+  background: #000d1a;
+  border-bottom: 1px solid #00b4d844;
+  box-shadow: 0 4px 20px rgba(0,212,255,0.1);
+}
+.navbar__brand {
+  font-size: 1.25rem;
+  font-weight: 900;
+  color: #00d4ff;
+  letter-spacing: 0.08em;
+  text-shadow: 0 0 14px #00d4ff;
+}
+.navbar__brand::before { content: "❄ "; }
+.navbar__links { display: flex; gap: 1.5rem; list-style: none; }
+.navbar__links a { font-size: 0.95rem; color: #2d6a7a; font-weight: 700; letter-spacing: 0.05em; transition: color 0.2s; }
+.navbar__links a:hover, .navbar__links a.active { color: #00d4ff; text-decoration: none; text-shadow: 0 0 8px #00d4ff; }
