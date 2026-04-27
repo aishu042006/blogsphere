@@ -63,11 +63,6 @@ blogsphere/
 └── vite.config.js
 ```
 
----
-
-## 🤝 Contributing
-
-Contributions are welcome! Feel free to open an issue or submit a pull request.
 
 ---
 
@@ -75,6 +70,3 @@ Contributions are welcome! Feel free to open an issue or submit a pull request.
 
 This project is open source and available under the [MIT License](LICENSE).
 
----
-
-> Made with ❤️ by [Aishu](https://github.com/aishu042006)
